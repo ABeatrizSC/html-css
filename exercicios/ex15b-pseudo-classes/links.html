@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a { /* Link */
+            color: blue;
+            text-decoration: none; 
+            font-weight: bold; /* Link em negrito */
+        }
+
+        .especial { /* Apenas aos que tem a class .especial */
+            background-color: antiquewhite;
+        }
+        
+        /* PSEUDO-CLASSES (:) */
+
+        a:visited { /* Se o link for visitado */
+            color: darkcyan
+        }
+        
+        a:hover { /* Ao passar o mouse sobre um link */
+            text-decoration: underline; /* Sublinhar o link */
+        }
+
+        a:active { /* Quando o link for ativo, clicado. */
+            color: blueviolet; /* Assumirá esta cor */
+        }
+
+        /* PSEUDO-ELEMENTOS (::) */
+
+        a::after { /* APÓS todos os links */
+            content: '[link]';
+            /* Config content: */
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .especial::before { /* Apenas aos links que têm a class .especial */
+            content: '[especial]';
+            /* Config content: */
+            font-weight: normal;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+    
+</body>
+</html>

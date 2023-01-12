@@ -1,0 +1,124 @@
+/*@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: FonteAndroid;
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0px;
+    background-color: rgba(128, 128, 128, 0.171);
+}
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #426185 20%, #083263 80%);
+    padding: 0px 0px 10px 0px;
+}
+
+header > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    color: white;
+    
+
+}
+
+header > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    color: white;
+    padding-bottom: 15px;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.39);
+    margin: 0px 150px 15px 150px;
+    
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    background-image: linear-gradient(to bottom, #426185 20%, #083263 80%);
+    padding: 10px;
+    text-align: left;
+}
+
+nav > a {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    color: grey;
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px 0px 10px 0px;
+    
+}
+
+h1#dentrosite {
+    font-family: FonteAndroid, Arial, Helvetica, sans-serif;
+    color: #083263;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+h2 {
+    font-family: FonteAndroid, Arial, Helvetica, sans-serif;
+    color: #083263;
+    font-weight: 500;
+    background-image: linear-gradient(to left, white 20%, #08326344 80%);
+    margin: 0px;
+
+ }
+
+section {
+    padding: 8px 20px;
+}
+
+aside {
+    background-color: #42618556;
+    margin: 10px 30px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+aside > h3 {
+    color: white;
+    background-color: #083263;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+aside > p {
+    padding: 0px 10px 20px 10px;
+    text-indent: 15px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #426185 10%, #083263 90%);
+    padding: 1px;
+}
+
+p > a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #003c81;
+}
