@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px; /* Largura dos quadrados da tabela */
+            border-collapse: collapse; /* Juntar as bordas uma com as outras */
+            border: 5px solid greenyellow; /* borda somente entorno da tabela */
+        }
+
+        tr { /* para cada linha da tabela */
+            background-color: salmon; /* background dessa cor */
+        }
+        td { /* colocar em volta de cada dado da tabela*/
+            border: 1px solid black; /* colocar uma borda em volta de cada dado da tabela*/
+            padding: 8px; /* espaço em volta de cada dado da tabela */
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!-- HIERARQUIA DE TABELA SIMPLES 
+        TABLE = tabela
+            TABLE ROW = linha de tabela
+                TABLE HEADER = cabeçalho de tabela 
+                TABLE DATA = dado de tabela -->
+    
+    <table>
+        <tr> <!-- table row - primeira linha -->
+            <td>A1</td> <!-- table data - primeiro dado da primeira linha -->
+            <td>B1</td> <!-- table data - segundo dado da primeira linha -->
+            <td>C1</td> <!-- table data - terceiro dado da primeira linha -->
+        </tr>
+
+        <tr> <!-- table row - segunda linha -->
+            <td>A2</td> <!-- table data - primeiro dado da segunda linha -->
+            <td>B2</td> <!-- table data - segundo dado da segunda linha -->
+            <td>C2</td> <!-- table data - terceiro dado da segunda linha -->
+        </tr>
+
+        <tr> <!-- table row - terceira linha -->
+            <td>A3</td> <!-- table data - primeiro dado da terceira linha -->
+            <td>B3</td> <!-- table data - segundo dado da terceira linha -->
+            <td>C3</td> <!-- table data - terceiro dado da terceira linha -->
+        </tr>
+
+        <tr> <!-- table row - quarta linha -->
+            <td>A4</td> <!-- table data - primeiro dado da quarta linha -->
+            <td>B4</td> <!-- table data - segundo dado da quarta linha -->
+            <td>C4</td> <!-- table data - terceiro dado da quarta linha -->
+        </tr>
+    </table>
+</body>
+</html>
