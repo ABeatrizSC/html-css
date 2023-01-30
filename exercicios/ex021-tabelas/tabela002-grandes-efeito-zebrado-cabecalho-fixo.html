@@ -13,6 +13,13 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative; /* CABEÇALHO FIXO */
+        }
+
+        thead > tr > th { /* CABEÇALHO FIXO */
+            position: sticky;
+            top: -1px; /* Fixar thead no topo */
+            background-color: gray; /* Fixar background no topo */
         }
 
         td, th /* th = para aplicar também aos dados do cabeçalho */ {
@@ -32,7 +39,12 @@
             color: white;
         }
 
-        td.ffnum {
+        tbody > tr:nth-child(2n) { /* Todo tr filho de tbody / (Xn) = de X em X linhas ele coloca background cinza / odd = todas as linhas ímpares recebe background cinza / even = todas as linhas pares recebe background cinza */
+            background-color: lightgray;
+        }
+
+
+        td.num {
             text-align: right;
         }
     </style>
