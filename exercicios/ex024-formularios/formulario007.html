@@ -8,11 +8,11 @@
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
-            <select name="estado" id="iest">
-                <option value="" selected>--Selecionar--</option>
+            <select name="estado" id="iest"> <!-- Cria um elemento que é uma lista que desce opções para selecionar -->
+                <option value="" selected>Selecionar</option> <!-- selected = Deixa este valor como padrão de opção -->
                 <optgroup label="Região Sudeste">
                     <option value="MG">Minas Gerais</option>
                     <option value="RJ">Rio de Janeiro</option>
@@ -30,7 +30,7 @@
         <p>
             <label for="iprof">Profissão: </label>
             <input type="text" name="prof" id="iprof" list="lstprof">
-            <datalist id="lstprof">
+            <datalist id="lstprof"> <!-- Cria uma lista com opções, mas também se é possível DIGITAR uma -->
                 <option>Admnistrador</option>
                 <option>Contabilista</option>
                 <option>Desenvolvedor</option>
@@ -38,7 +38,7 @@
             </datalist>
         </p>
 
-        <p> <label for="imsg">Mensagem</label> <br>
+        <p> <label for="imsg">Mensagem</label> <br> <!-- TEXTAREA -->
             <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
         </p>
 
