@@ -20,8 +20,22 @@ header > h1 {
     text-align: center;
 }
 
+.material-symbols-outlined {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100vw;
+    cursor: pointer; /* Ao passar o mouse sobre, a seta do mouse vira uma mãozinha */
+}
+
+.material-symbols-outlined:hover {
+    background-color: white;
+    color: black;
+}
+
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -36,7 +50,7 @@ menu > ul > li > a {
     background-color: rgb(87, 87, 87);
     color: white;
     border-top: 2px solid grey;
-    border-radius: 1000px;
+    border-radius: 10px;
 }
 
 menu > ul > li > a:hover {
