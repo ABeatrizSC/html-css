@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Typical devices Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px */
+
+@media screen and (min-width: 768px) { /* CSS para telas de tablet (768px) para cima */
+
+    .material-symbols-outlined{
+        display: none; /* Assim, tira-se o menu 'hamburguer  */
+    }
+
+    menu { /* Mostra o menu normal */
+        display: block;
+    }
+
+    menu > ul > li { /* Deixa as opções do menu alinhadas uma a frente da outra*/
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
