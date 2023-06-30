@@ -43,10 +43,10 @@
 <h2>⚙Projetos desenvolvidos</h2>
 <p>Os projetos feitos no curso estão disponíveis em repositórios únicos para cada um e possuem links para a visualização completa do projeto (utilizando o Github Pages). Confira:
   <ul>
-    <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-site-android">Projeto Site Android</a> </li>
-    <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-cordel">Projeto Cordel</a> </li>
-    <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-social">Projeto Social</a> </li>
-    <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-tela-login">Projeto Tela de Login</a> </li>  
+    <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-site-android" target="_blank">Projeto Site Android</a> </li>
+    <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-cordel" target="_blank">Projeto Cordel</a> </li>
+    <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-social" target="_blank">Projeto Social</a> </li>
+    <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-tela-login" target="_blank">Projeto Tela de Login</a> </li>  
   </ul>
 </p>
 
