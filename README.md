@@ -41,7 +41,7 @@
 <p>Os exercícios/desafios foram feitos através do editor Visual Studio Code. As pastas estão divididas primeiramente entre Execícios e desafios, e logo após em pastas referentes a cada capítulo e módulo, respectivamente.</p>
 
 <h2>⚙Projetos desenvolvidos</h2>
-<p>Os projetos feitos nocurso estão disponíveis em repositórios únicos para cada um e possuem links para a visualização completa do projeto (utilizando o Github Pages). Confira:
+<p>Os projetos feitos no curso estão disponíveis em repositórios únicos para cada um e possuem links para a visualização completa do projeto (utilizando o Github Pages). Confira:
   <ul>
     <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-site-android">Projeto Site Android</a> </li>
     <li> <a style="text-decoration: none;" href="https://github.com/ABeatrizSC/projeto-cordel">Projeto Cordel</a> </li>
