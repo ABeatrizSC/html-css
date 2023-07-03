@@ -1,4 +1,4 @@
-# Curso de HTML E CSS3
+# Curso de HTML5 E CSS3
 <h2>📌 Sobre</h2>
 <P>Repositório criado com o intuito de reunir todos os exercícios e desafios feitos a partir do Curso de HTML5 e CSS3 do Curso em Vídeo.</P>
 <h2>📋 Conteúdos abordados</h2>
